@@ -6,8 +6,146 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:agencedevoyage-ontology="http://www.semanticweb.org/hajer/ontologies/2021/9/agencedevoyage-ontology.owl#">
+     xmlns:agencedevoyage-ontology="http://www.semanticweb.org/hajer/ontologies/2021/9/agencedevoyage-ontology.owl#"
+     xmlns:agencedevoyage-ontology1="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#address -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#address"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#age -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#arrival_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#arrival_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#bank_card -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#bank_card"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#capacity -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#capacity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#city -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#city"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#country -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#depart_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#depart_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#email -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#email"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#first_name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#first_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#last_name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#last_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#location -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#nationality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#nationality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#passport -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#passport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#phone -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#phone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#price -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#ref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#ref"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#reservation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#reservation_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#total -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#total"/>
     
 
 
@@ -494,6 +632,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Amina">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Hotel"/>
+        <agencedevoyage-ontology1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amina</agencedevoyage-ontology1:name>
     </owl:NamedIndividual>
     
 
@@ -502,6 +641,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#CommeChezToi">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Restaurant"/>
+        <agencedevoyage-ontology1:location>tunis</agencedevoyage-ontology1:location>
     </owl:NamedIndividual>
     
 
@@ -510,6 +650,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Diese">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Restaurant"/>
+        <agencedevoyage-ontology1:location>ariana</agencedevoyage-ontology1:location>
     </owl:NamedIndividual>
     
 
@@ -518,6 +659,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Hafood">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Restaurant"/>
+        <agencedevoyage-ontology1:location>sousse</agencedevoyage-ontology1:location>
     </owl:NamedIndividual>
     
 
@@ -526,6 +668,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Hammadi">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Employee"/>
+        <agencedevoyage-ontology1:email>hammadi.tourabi@esprit.tn</agencedevoyage-ontology1:email>
+        <agencedevoyage-ontology1:first_name>hammadi</agencedevoyage-ontology1:first_name>
+        <agencedevoyage-ontology1:last_name>bougossa</agencedevoyage-ontology1:last_name>
+        <agencedevoyage-ontology1:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50700499</agencedevoyage-ontology1:phone>
     </owl:NamedIndividual>
     
 
@@ -534,6 +680,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Metro2">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Train"/>
+        <agencedevoyage-ontology1:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</agencedevoyage-ontology1:capacity>
     </owl:NamedIndividual>
     
 
@@ -542,6 +689,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Ovoh">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#TravelAgency"/>
+        <agencedevoyage-ontology1:address>tunis</agencedevoyage-ontology1:address>
+        <agencedevoyage-ontology1:name>ovoh</agencedevoyage-ontology1:name>
+        <agencedevoyage-ontology1:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50700658</agencedevoyage-ontology1:phone>
     </owl:NamedIndividual>
     
 
@@ -550,6 +700,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Tanit">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Ship"/>
+        <agencedevoyage-ontology1:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</agencedevoyage-ontology1:capacity>
     </owl:NamedIndividual>
     
 
@@ -558,6 +709,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#TukishAir">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Plane"/>
+        <agencedevoyage-ontology1:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</agencedevoyage-ontology1:capacity>
     </owl:NamedIndividual>
     
 
@@ -566,6 +718,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#barbarous">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Ship"/>
+        <agencedevoyage-ontology1:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</agencedevoyage-ontology1:capacity>
     </owl:NamedIndividual>
     
 
@@ -574,6 +727,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#erick">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Client"/>
+        <agencedevoyage-ontology1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</agencedevoyage-ontology1:age>
+        <agencedevoyage-ontology1:bank_card rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22567890</agencedevoyage-ontology1:bank_card>
+        <agencedevoyage-ontology1:email>erick.tourabi@esprit.tn</agencedevoyage-ontology1:email>
+        <agencedevoyage-ontology1:first_name>smith</agencedevoyage-ontology1:first_name>
+        <agencedevoyage-ontology1:last_name>erick</agencedevoyage-ontology1:last_name>
+        <agencedevoyage-ontology1:nationality>turkish</agencedevoyage-ontology1:nationality>
+        <agencedevoyage-ontology1:passport rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142687098</agencedevoyage-ontology1:passport>
+        <agencedevoyage-ontology1:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50700455</agencedevoyage-ontology1:phone>
     </owl:NamedIndividual>
     
 
@@ -582,6 +743,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#madina">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Destination"/>
+        <agencedevoyage-ontology1:city>madinah</agencedevoyage-ontology1:city>
+        <agencedevoyage-ontology1:country>saoudi arabia</agencedevoyage-ontology1:country>
     </owl:NamedIndividual>
     
 
@@ -590,6 +753,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#makkah">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Destination"/>
+        <agencedevoyage-ontology1:city>mahkkah</agencedevoyage-ontology1:city>
+        <agencedevoyage-ontology1:country>saoudi arabia</agencedevoyage-ontology1:country>
     </owl:NamedIndividual>
     
 
@@ -598,6 +763,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#movenpick">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Hotel"/>
+        <agencedevoyage-ontology1:description>Hotel 5 etoiles</agencedevoyage-ontology1:description>
+        <agencedevoyage-ontology1:location>tunis</agencedevoyage-ontology1:location>
+        <agencedevoyage-ontology1:name>movenpick</agencedevoyage-ontology1:name>
     </owl:NamedIndividual>
     
 
@@ -606,6 +774,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#yellowBus">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Bus"/>
+        <agencedevoyage-ontology1:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</agencedevoyage-ontology1:capacity>
     </owl:NamedIndividual>
 </rdf:RDF>
 
