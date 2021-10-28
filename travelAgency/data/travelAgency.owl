@@ -632,6 +632,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Amina">
         <rdf:type rdf:resource="http://www.semanticweb.org/agence/ontologies/2021/9/agencedevoyage-ontology#Hotel"/>
+        <agencedevoyage-ontology1:description>hotel 4 etoiles</agencedevoyage-ontology1:description>
+        <agencedevoyage-ontology1:location>kairouan</agencedevoyage-ontology1:location>
         <agencedevoyage-ontology1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amina</agencedevoyage-ontology1:name>
     </owl:NamedIndividual>
     
